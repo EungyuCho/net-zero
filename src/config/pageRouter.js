@@ -1,6 +1,6 @@
 const pageRouter = [
   {
-    navigate: "/Well",
+    navigate: "/",
     label: "탄소중립 잘하고있니?",
   },
   {
