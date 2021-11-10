@@ -1,15 +1,15 @@
 const pageRouter = [
   {
-    navigate: "/",
-    label: "메인페이지로 가기",
+    navigate: "/Well",
+    label: "탄소중립 잘하고있니?",
   },
   {
-    navigate: "/HelloWorld",
-    label: "헬로우얼드!!! 가기",
+    navigate: "/DataCenter",
+    label: "전기 먹는 하마 데이터센터",
   },
   {
-    navigate: "/page-2",
-    label: "페이지 2로 가기",
+    navigate: "/Bad",
+    label: "그린워싱이란?",
   },
 ];
 

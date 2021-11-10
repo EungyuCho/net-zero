@@ -1,0 +1,16 @@
+.route {
+    width: 100vw;
+    max-height: 50px;
+    overflow:scroll;
+}
+
+.navigate {
+    min-height: 50px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .route {
+        display: none;
+    }
+}

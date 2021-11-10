@@ -3,31 +3,25 @@ import { Link } from "gatsby";
 import pageRouter from "../config/pageRouter";
 import { toReactArray } from "../util/react.util";
 import { colors } from "../config/theme";
+import styles from "./route.module.css";
 
 const Routing = () => (
-  <div
-    style={{
-      display: "flex",
-      flexDirection: "column",
-      marginBottom: 10,
-      paddingLeft: 25,
-      minWidth: 200,
-    }}
-  >
+  <div className={styles.route}>
     {toReactArray(
       pageRouter.map(({ label, navigate }) => (
-        <Link
-          to={navigate}
-          style={{
-            marginBottom: 10,
-            textDecoration: "none",
-            color: colors.grey,
-            fontWeight: "bold",
-            fontFamily: "Nanum Gothic",
-          }}
-        >
-          {label}
-        </Link>
+        <span className={styles.navigate}>
+          <Link
+            to={navigate}
+            style={{
+              textDecoration: "none",
+              color: colors.grey,
+              fontWeight: "bold",
+              fontFamily: "Nanum Gothic",
+            }}
+          >
+            {label}
+          </Link>
+        </span>
       ))
     )}
   </div>

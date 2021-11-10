@@ -5201,6 +5201,18 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
+embla-carousel-react@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-6.0.1.tgz#4a7d75860dc700bf7eb688ae5daa7a901d62fbb0"
+  integrity sha512-pNtxD1v90E4hIeNwolmmde3YcZEfFgV4xfZjiEjsI2feVDMmWWFEJC2nczsW2wruuaKQk5kPpe3M6m31T/p14Q==
+  dependencies:
+    embla-carousel "6.0.1"
+
+embla-carousel@6.0.1, embla-carousel@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-6.0.1.tgz#1974d64ad18a93963ba4c3532ae24fc18ec6562d"
+  integrity sha512-jz+7AqMOt+v6Ryi8jWVG4rK0rkqr5VunuNd/boGQb2z6lebtJSVR2VmKit3uQV9DkIPp92I9ZydiTYRquk9QUQ==
+
 emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
@@ -9121,6 +9133,11 @@ lodash.get@^4:
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
   integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
 
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+
 lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
@@ -11765,7 +11782,7 @@ prompts@^2.3.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -12110,6 +12127,15 @@ react-side-effect@^1.1.0:
   integrity sha512-v1ht1aHg5k/thv56DRcjw+WtojuuDHFUgGfc+bFHOWsF4ZK6C2V57DO0Or0GPsg6+LSTE0M6Ry/gfzhzSwbc5w==
   dependencies:
     shallowequal "^1.0.1"
+
+react-swipe@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/react-swipe/-/react-swipe-6.0.4.tgz#76e53599b1a093d5a3a841c7f391ef0abcc1babb"
+  integrity sha512-NIF+gVOqPpE8GyCg0ssFC+fPgeqCwNnvqFU/A8nDAOvoncW3KjSVFwgkYNnErHvpFZGmsVw4SLWK96n7+mnChg==
+  dependencies:
+    lodash.isequal "^4.5.0"
+    prop-types "^15.6.0"
+    swipe-js-iso "^2.1.5"
 
 react-transition-group@^4.4.0:
   version "4.4.2"
@@ -13737,6 +13763,11 @@ swap-case@^1.1.0:
   dependencies:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
+
+swipe-js-iso@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/swipe-js-iso/-/swipe-js-iso-2.1.5.tgz#9b0eea8b9740487e6169d655184fc6440b6a2e34"
+  integrity sha512-yTTU5tDYEvtKfCD8PN+Rva25acJwogUCd6wPT1n1im/MOJlg6PtHiPKaaNK7HDBiIrWThA/WRbJZbox2letghg==
 
 symbol-observable@^1.0.4:
   version "1.2.0"
