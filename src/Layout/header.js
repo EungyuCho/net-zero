@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import { colors } from "../config/theme";
-import HamBurgerRoute from "../routes/hamburgerRoute";
+import HamBurgerRoute from "../routes/HamburgerRoute.js";
 
 const Header = ({ siteTitle, visible, setVisible }) => (
   <div
